@@ -42,7 +42,7 @@ def main():
 
 	if not os.path.exists(screenshot_dir):
 		os.makedirs(screenshot_dir)
-		print("Making directory : ",screenshot_dir)
+		print("Making directory for screenshots: ",screenshot_dir)
 
 	videos = glob("*.mp4")
 	videos.sort()
