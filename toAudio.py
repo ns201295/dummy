@@ -1,5 +1,6 @@
 from moviepy.editor import VideoFileClip as vid 
 from glob import glob
+import numpy, pickle
 
 filenames = glob("*.mp4")
 

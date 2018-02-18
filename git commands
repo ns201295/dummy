@@ -14,3 +14,6 @@ git commit -am "add and commit"
 git checkout -- filename.py
 git reset HEAD filename             ( moves file from staging area to working copy)
 git checkout commit_number -- filename
+git remote add remote_name remoteaddress.git
+git remote
+git push -u remote_name master
