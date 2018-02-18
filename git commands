@@ -1,0 +1,16 @@
+git --version
+git config --global user.name  " "
+git config --global user.email " "
+GOT YOUR DIRECTORY
+git init
+git add .
+git commit -m "first commit"
+git log
+git log --author="ns201295"
+git status
+git diff
+git diff --staged
+git commit -am "add and commit"
+git checkout -- filename.py
+git reset HEAD filename             ( moves file from staging area to working copy)
+git checkout commit_number -- filename
