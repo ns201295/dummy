@@ -5,7 +5,9 @@ from glob import glob
 from nltk.corpus import words
 
 client 	= gcv.ImageAnnotatorClient()
-screenshot_dir = 'Frames'
+screenshot_dir = 'Screenshots'
+
+
 
 def image_to_text(image_path):
 
